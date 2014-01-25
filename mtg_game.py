@@ -42,10 +42,24 @@ player1 = player.Player([steeple_roc, daring_skyjek, plain, plain, plain, steepl
 player2 = player.Player([steeple_roc, daring_skyjek, plain, plain, plain, steeple_roc, daring_skyjek, plain, plain, plain, steeple_roc, daring_skyjek, plain, plain, plain, steeple_roc, daring_skyjek, plain, plain, plain, steeple_roc, daring_skyjek, plain, plain, plain, steeple_roc, daring_skyjek, plain, plain, plain, steeple_roc, daring_skyjek, plain, plain, plain, steeple_roc, daring_skyjek, plain, plain, plain, steeple_roc, daring_skyjek, plain, plain, plain, steeple_roc, daring_skyjek, plain, plain, plain, steeple_roc, daring_skyjek, plain, plain, plain, steeple_roc, daring_skyjek, plain, plain, plain, forrest, forrest, forrest, forrest, forrest, forrest, forrest, forrest, forrest, forrest, forrest, forrest, forrest, forrest, forrest, forrest, forrest, forrest, forrest, forrest, vulpine_goliath, vulpine_goliath, vulpine_goliath, vulpine_goliath, vulpine_goliath, vulpine_goliath, vulpine_goliath, vulpine_goliath, vulpine_goliath, vulpine_goliath, vulpine_goliath, vulpine_goliath]) 
 
 players = [player1, player2]
-
+stack = []
 end_game = False
 move = 1
 first_player_move = True
+
+
+def main_phase(player, players):
+   action = ''
+   while action != "done":
+      action = raw_input("Main phase: ")
+   
+      if action == "hand":
+         player.print_hand()
+      elif action == "exit":
+         sys.exit()
+      else: # print card info
+         card.print_card(action)
+   
 
 while not(end_game):
    for player in players:
@@ -67,16 +81,7 @@ while not(end_game):
      ## MAIN PHASE
       # ask user what to do
       # also supports game status
-      action = ''
-      while action != "done":
-         action = raw_input("Main phase: ")
-         
-         if action == "hand":
-            player.print_hand()
-         elif action == "exit":
-            sys.exit()
-         else: # print card info
-            card.print_card(action)
+      main_phase(player, players)
       
      ## COMBAT PHASE
       
