@@ -23,11 +23,11 @@ class Player:
    lose = False
    
    def __init__(self, library = []):
-      self.library =   []
-      self.hand      = []
-      self.graveyard = []
-      self.exiled    = []
-      self.in_play   = []
+      self.library      = []
+      self.hand         = []
+      self.graveyard    = []
+      self.exiled       = []
+      self.battle_field = []
 
       random.shuffle(library)
       for ii in range(7):
@@ -63,6 +63,13 @@ class Player:
    def print_card(self, action):
       for crd in self.hand:
          if crd.print_card(action):
+            break
+
+   def play(self, action):
+      for crd in self.hand:
+         if crd.card_name.lower() == action.lower():
+            self.battle_field.append(crd)
+            self.hand.remove(crd)
             break
 
    def remove_creature_damage(self):

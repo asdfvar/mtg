@@ -70,7 +70,7 @@ def main_phase(player, players):
          if action:
             player.play(action)
          else:
-            print "no card choosen"
+            print "no card chosen"
       elif action == "exit":
          sys.exit()
       elif action and action.split()[0] == "info":
@@ -78,7 +78,7 @@ def main_phase(player, players):
          if action:
             player.print_card(action)
          else:
-            print "no card choosen"
+            print "no card chosen"
 
    ##########
    ## Game ##
@@ -89,7 +89,7 @@ while not(end_game):
 
      ## BEGINNING PHASE
      # Untap step
-      for play in player.in_play:
+      for play in player.battle_field:
          play.untap()
 
      # Upkeep step
