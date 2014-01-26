@@ -49,17 +49,40 @@ first_player_move = True
 
 
 def main_phase(player, players):
+# Player decides what to do:
+#
+# - pass turn with "pass"
+#
+# - show hand with "hand"
+#
+# - get detail of a card in hand with
+#   "info" followed by the name of the card
+#
+# - exit game with "exit"
    action = ''
-   while action != "done":
+   while action != "pass":
       action = raw_input("Main phase: ")
    
       if action == "hand":
          player.print_hand()
+      elif action and action.split()[0] == "play":
+         action = action.split(' ',1)[1]
+         if action:
+            player.play(action)
+         else:
+            print "no card choosen"
       elif action == "exit":
          sys.exit()
-      else: # print card info
-         card.print_card(action)
-   
+      elif action and action.split()[0] == "info":
+         action = action.split(' ',1)[1]
+         if action:
+            player.print_card(action)
+         else:
+            print "no card choosen"
+
+   ##########
+   ## Game ##
+   ##########
 
 while not(end_game):
    for player in players:
@@ -75,6 +98,7 @@ while not(end_game):
      # Draw step
       if not(first_player_move):
           player.draw()
+          player.play_land = True
           if player.lose:
              end_game = True
 

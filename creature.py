@@ -34,7 +34,7 @@ class Creature(card.card):
 
 class Steeple_roc(Creature):
    Type = 'bird'
-   card_name = tc.colored("Steeple Roc",'grey','on_white')
+   card_name = "Steeple Roc"
    color = "white"
    card_text = "Flying, first strike"
    flavor_text = "\"Sometimes it forgets to loosen its grip before taking flight. I lost my roof that way.\" \n-Ecaban, Boros scout"
@@ -63,7 +63,7 @@ class Steeple_roc(Creature):
 
 class Daring_skyjek(Creature):
    Type = 'human knight'
-   card_name = tc.colored("Daring Skyjek",'grey','on_white')
+   card_name = "Daring Skyjek"
    color = "white"
    card_text = "Battalion - Whenever Daring Skyjek and at least two other creatures attack, Daring Skyjek gains flying until end of turn."
    flavor_text = "\"The hard part isn't landing in the saddle. The hard part is leaping before you see it.\""
@@ -101,7 +101,7 @@ class Daring_skyjek(Creature):
 
 class Vulpine_goliath(Creature):
    Type = 'fox'
-   card_name = tc.colored("Vulpine Goliath",'white','on_green')
+   card_name = "Vulpine Goliath"
    color = "green"
    card_text = "Trample"
    flavor_text = "\"With a diet of hydras, giants, and massive serpents, anything would get that big.\"\n-Corisande, Setessan hunter"

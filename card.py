@@ -45,37 +45,46 @@ class card:
 
 ############################################
 
-def print_card(action):
-   action = action.lower()
-   if action == "steeple roc":
-      crd = creature.Steeple_roc()
-   elif action == "daring skyjek":
-      crd = creature.Daring_skyjek()
-   elif action == "vulpine goliath":
-      crd = creature.Vulpine_goliath()
-   else:
-      return
+   def print_card(self, action):
+      match = False
+      action = action.lower()
+      if action == self.card_name.lower():
+         match = True
+         print ''
+         if self.color == "white":
+            print tc.colored(self.card_name,'grey','on_white')
+         elif self.color == "green":
+            print tc.colored(self.card_name,'white','on_green')
+         elif self.color == "blue":
+            print tc.colored(self.card_name,'white','on_blue')
+         elif self.color == "black":
+            print tc.colored(self.card_name,'white','on_grey')
+         elif self.color == "red":
+            print tc.colored(self.card_name,'white','on_red')
+         else:
+            print self.card_name
 
-   print ''
-   print crd.card_name
-   print "cost\t",
-   if crd.colorless_mana > 0:
-      print "%s" % crd.colorless_mana,
-   if crd.white_mana > 0:
-      print "%s" % tc.colored(crd.white_mana, 'grey','on_white'), 
-   if crd.green_mana > 0:
-      print "%s" % tc.colored(crd.green_mana, 'white','on_green'),
-   if crd.black_mana > 0:
-      print "%s" % tc.colored(crd.black_mana, 'white','on_grey'),
-   if crd.red_mana > 0:
-      print "%s" % tc.colored(crd.red_mana, 'white','on_red'),
-   if crd.blue_mana > 0:
-      print "%s" % tc.colored(crd.blue_mana, 'white','on_blue'),
-   print ''
-   print crd.card_text
-   print ''
-   print crd.flavor_text
-   if isinstance(crd, creature.Creature):
-      print ''
-      print "%d/%d" % (crd.power, crd.toughness)
-   print ''
+         print "cost\t",
+         if self.colorless_mana > 0:
+            print "%s" % self.colorless_mana,
+         if self.white_mana > 0:
+            print "%s" % tc.colored(self.white_mana, 'grey','on_white'), 
+         if self.green_mana > 0:
+            print "%s" % tc.colored(self.green_mana, 'white','on_green'),
+         if self.black_mana > 0:
+            print "%s" % tc.colored(self.black_mana, 'white','on_grey'),
+         if self.red_mana > 0:
+            print "%s" % tc.colored(self.red_mana, 'white','on_red'),
+         if self.blue_mana > 0:
+            print "%s" % tc.colored(self.blue_mana, 'white','on_blue'),
+         print ''
+         print ''
+         print self.card_text
+         print ''
+         print self.flavor_text
+         if isinstance(self, creature.Creature):
+            print ''
+            print "%d/%d" % (self.power, self.toughness)
+         print ''
+
+      return match

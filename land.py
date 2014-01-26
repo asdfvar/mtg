@@ -1,7 +1,7 @@
 import termcolor as tc
 import card
 
-class land(card.card):
+class Land(card.card):
    permanent = True
    quantitiy = float("inf")
    def tap(self, player, players):
@@ -12,8 +12,8 @@ class land(card.card):
    # Generic Lands #
    #################
 
-class Forrest(land):
-   card_name = tc.colored("Forrest",'white','on_green')
+class Forrest(Land):
+   card_name = "Forrest"
    def __init__(self):
       pass
    def tap(self, player, players):
@@ -22,8 +22,8 @@ class Forrest(land):
 
 ##################################
 
-class Mountain(land):
-   card_name = tc.colored("Mountain",'white','on_red')
+class Mountain(Land):
+   card_name = "Mountain"
    def __init__(self):
       pass
    def tap(self, player, players):
@@ -32,8 +32,8 @@ class Mountain(land):
 
 ##################################
 
-class Swamp(land):
-   card_name = tc.colored("Swamp",'white','on_grey')
+class Swamp(Land):
+   card_name = "Swamp"
    def __init__(self):
       pass
    def tap(self, player, players):
@@ -42,8 +42,8 @@ class Swamp(land):
 
 ##################################
 
-class Plain(land):
-   card_name = tc.colored("Plain",'grey','on_white')
+class Plain(Land):
+   card_name = "Plain"
    def __init__(self):
       pass
    def tap(self, player, players):
@@ -52,8 +52,8 @@ class Plain(land):
 
 ##################################
 
-class Island(land):
-   card_name = tc.colored("Island",'white','on_blue')
+class Island(Land):
+   card_name = "Island"
    def __init__(self):
       pass
    def tap(self, player, players):

@@ -18,6 +18,7 @@ class Player:
    mana_pool = mana.Mana()
    devotion = Devotion()
    life = 20
+   play_land = False
    win = False
    lose = False
    
@@ -45,8 +46,24 @@ class Player:
    def print_hand(self):
       print ''
       for crd in self.hand:
-         print crd.card_name
+         if crd.color == "white":
+            print tc.colored(crd.card_name,'grey','on_white')
+         elif crd.color == "green":
+            print tc.colored(crd.card_name,'white','on_green')
+         elif crd.color == "blue":
+            print tc.colored(crd.card_name,'white','on_blue')
+         elif crd.color == "black":
+            print tc.colored(crd.card_name,'white','on_grey')
+         elif crd.color == "red":
+            print tc.colored(crd.card_name,'white','on_red')
+         else:
+            print crd.card_name
       print ''
+
+   def print_card(self, action):
+      for crd in self.hand:
+         if crd.print_card(action):
+            break
 
    def remove_creature_damage(self):
       for crtr in self.in_play:
