@@ -58,6 +58,9 @@ def main_phase(player, players):
 # - get detail of a card in hand with
 #   "info" followed by the name of the card
 #
+# - play card with "play" followed by card
+#   name
+#
 # - exit game with "exit"
    action = ''
    while action != "pass":

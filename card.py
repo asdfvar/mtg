@@ -3,8 +3,9 @@ import mana
 import creature
 
 class card:
+   complete = False
    permanent = True
-   quantity = 1
+   quantity = 0
    color = "none"
    card_name = ""
    card_text = ""

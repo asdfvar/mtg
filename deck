@@ -1,12 +1,28 @@
 #CREATURES
+Shipwreck Singer
+Kragma Warcaller
+Daxos of Meletis
+Sentry of the Underworld
 #White
-Observant Alseid
-.Steeple Roc
-.Daring Skyjek
+Pillarfield Ox
+Sentinel Sliver
+Evangel of Heliod
+Cavalry Pegasus
+Wingsteed Rider
+Soldier of the Pantheon
+Lagonna-Band Elder
+Setessan Battle Priest
+Suntail Hawk
+Griffin Sentinel
+Setessan Griffin
+Leonin Snarecaster 2
+Observant Alseid 4
+Steeple Roc
+Daring Skyjek
 Soulmender
-Yoked Ox
+Yoked Ox 3
 Traveling Philosopher
-Ephara's Warden
+Ephara's Warden 2
 Tireless Tribe 2
 Plated Sliver
 Pilgrim of Virtue 2
@@ -38,24 +54,30 @@ Arctiv Foxes
 Aven Redeemer
 Auramancer
 Mystic Zealot 2
-Priest of Iroas
 
 #Green
-Staunch-Hearted Warrior
-Satyr Piper
+Advocate of the Beast
+Leafcrown Dryad
+Voyaging Satyr
+Rumbling Baloth
+Manaweft Sliver
+Agent of Horizons 2
+Karametra's Acolyte
+Staunch-Hearted Warrior 3
+Satyr Piper 2
 Karametra's Acolyte 2
 .Vulpine Goliath
-Pheres-Band Centaurs
-Nylea's Disciple 2
-Nessian Asp 2
-Satyr Hedonist
-Sedge Scorpion 2
+Pheres-Band Centaurs 2
+Nylea's Disciple 4
+Nessian Asp 4
+Satyr Hedonist 3
+Sedge Scorpion 3
 Nessian Courser 2
 Agent of Horizons
 Kraul Warrior
 Centaur's Herald
 Ivy Lane Denizen
-Elvish Mystic
+Elvish Mystic 2
 Woodland Druid 2
 Nentuko Vigilante
 Diligent Farmhand 3
@@ -77,6 +99,7 @@ Norwood Ranger
 Tinder Wall
 Wild Mongrel
 Nimble Mongoose
+Nimbus Naiad
 Marsh Viper
 hungry Mist
 Ivy Elemental
@@ -96,9 +119,16 @@ hundroog
 Cat Warriors
 
 #Black
+Returned Centaur
+Keepsake Gorgon
+Minotaur Abomination
+Blood Bairn
+Child of Night
+Gray Merchant of Asphodel
+Cavern Lampad 2
 Fleshmad Steed
 Asphodel Wanderer
-Disciple of Phenax
+Disciple of Phenax 2
 Tormented Hero
 Hired Torturer
 Thrill-Kill Assassin
@@ -140,6 +170,11 @@ Gravedigger 2
 Fledgling Imp
 
 # Blue
+Scroll Thief
+Thassa's Emissary
+Prescient Chimera 3
+Stymied Hopes
+Crackling Triton 2
 Opal Lake Gatekeepers
 Faerie Imposter
 Clinging Anemones
@@ -179,6 +214,13 @@ Magus of the Unseen
 Warped Researcher
 
 # Red
+Priest of Iroas 3
+Goblin Shortcutter
+Ill-Tempered Cyclops
+Cyclops Tyrant
+Regathan Firecat
+Canyon Minotaur
+Satyr Rambler
 Wild Celebrants
 Deathbellow Raider
 Bellows Lizard
@@ -229,6 +271,7 @@ kamahl, Pit Fighter
 Wake the Reflections
 
 #Green
+Fade into Antiquity
 Horncaller's Chant
 Lay of the Land
 Tsunami
@@ -240,6 +283,7 @@ Chatter of the Squirrel 2
 Forgotten Lore
 
 #Black
+Read the Bones 2
 Shrivel
 Drain Life
 Mind Burst 2
@@ -251,12 +295,16 @@ Last Rites
 Morbid hunger
 Morgue Theft
 Gaze of Pain
-Diabolic Tutor
+Diabolic Tutor 2
 Unburden
 Buried Alive 2
 Nausea
 
 #Blue
+Glimpse the Future
+Divination
+Tome Scour
+Thassa's Bounty
 Uncovered Clues
 Careful Study 2
 Rush of Knowledge
@@ -266,12 +314,13 @@ Upheaval
 Cultural Exchange
 
 #Red
-Rage of Purphoros
-Peak Eruption
-Demolish 2
+Flames of the Firebrand
+Rage of Purphoros 2
+Peak Eruption 2
+Demolish 3
 Mark for Death
 Awe for the Guilds
-Portent of Betrayal 2
+Portent of Betrayal 3
 Torrent of Fire
 Flashfires
 Scorching Missile 2
@@ -283,13 +332,17 @@ Shower of Coals
 
 #INSTANT
 #White
+Celestial Flare
+Battlewise Valor
+Ray of Dissolution 3
+Battlewise Valor
 Fortify
 Dauntless Onslaught
 Second Thoughts 3
 Embolden
 Sacred Rites 2
 Swift Justice
-Gods Willing
+Gods Willing 3
 Death Ward
 Swords to Plowshares
 Shelter 2
@@ -299,8 +352,14 @@ Congregate
 Ray of Distortion
 
 #Green
+Artisan's Sorrow
+Warriors' Lesson 2
+Savage Summoning
+Plummet
+Giant Growth
+Shredding Winds 2
 Mending Touch
-Defend the Hearth 2
+Defend the Hearth 5
 Muscle Burst 3
 howling Gale
 Elephant Ambush 2
@@ -313,7 +372,12 @@ Sprouting Vines
 Giant Growth
 
 #Black
-Dark Betrayal
+Vile Rebirth
+Rescue from the Underworld
+Pharika's Cure
+Boon of Erebos
+Last Breath
+Dark Betrayal 3
 Chill haunting
 Slay
 Coffin Purge 3
@@ -324,6 +388,13 @@ Dark Banishing
 Burnt Offering
 
 #Red
+Chandra's Outrage
+Volcanic Geyser
+Smelt
+Thunder Strike
+Coordinated Assault 2
+Boulderfall
+Magma Jet
 Spark Jolt
 Lightning Strike
 Engulfing Flames
@@ -337,6 +408,10 @@ Blazing Salvo
 Flame Burst
 
 #Blue
+Gainsay
+Negate
+Frost Breath
+Dissolve
 Brainstorm
 Peck 2
 Clairvoyance
@@ -360,6 +435,7 @@ Spell Blast
 
 #ENCHANTMENT
 #White
+Blessing
 Guilty Conscience 2
 Kirtar's Desire 3
 Armor of Faith
@@ -378,6 +454,8 @@ Crusade
 Divine Sacrament
 
 #Red
+Awaken the Ancient
+Lightning Talons
 Spearpoint Oread
 Messenger's Speed 2
 Extra Arms
@@ -389,6 +467,7 @@ Battle Strain
 Dragon Mantle 3
 
 #Green
+Feral Invocation
 Seton's Desire
 Dragon Fangs
 Primal Frenzy
@@ -398,10 +477,11 @@ Ground Seal
 Still Life
 
 #Blue
+Sensory Deprivation
 Invisibility
 Snow Devil
 Essence Flare
-Fate Foretold
+Fate Foretold 2
 Immobilizing Ink 2
 Psionic Gift
 Aboshan's Desire
@@ -412,6 +492,8 @@ Battle of Wits
 Unifying Theory
 
 #Black
+Dark Favor
+Mark of the Vampire
 Dance of the Dead
 Lingering Death
 Cloak of Confusion 2
@@ -430,6 +512,11 @@ Dark Prophecy
 Viper's Kiss 2
 
 #ARTIFACT
+Spear of Heliod
+Vial of Poison 2
+Guardian of the Ages
+Guardians of Meletis 2
+Bow of Nylea
 Witches' Eye
 Azorius Cluestone
 Golgari Cluestone
@@ -444,13 +531,17 @@ Shadowblood Egg
 Mirari
 Darkwater Egg
 Bronze Sable 2
-Flamecast Wheel
+Flamecast Wheel 2
 Bubbling Cauldron
 Guardians of Meletis 2
 Anvilwrought Raptor 2
-Fleetfeather Sandals 2
+Fleetfeather Sandals 3
 
 #Misc
+Shimmering Grotto
+Temple of Mystery
+Nykthos, Shrine to Nyx
+Unknown Shores
 Ice Floe
 Gruul Guildgate
 Growing Ranks

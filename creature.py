@@ -4,6 +4,7 @@ import player
 
 class Creature(card.card):
    Type = ''
+   sub_type = ''
    permanent = True
    summining_sickness = True
 
@@ -62,6 +63,7 @@ class Steeple_roc(Creature):
    ################
 
 class Daring_skyjek(Creature):
+   complete = True
    Type = 'human knight'
    card_name = "Daring Skyjek"
    color = "white"
