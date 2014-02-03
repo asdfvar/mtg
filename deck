@@ -1,11 +1,114 @@
 #CREATURES
-Shipwreck Singer
-Kragma Warcaller
-Daxos of Meletis
-Sentry of the Underworld
++
+card_name = Shipwreck Singer
+type = creature
+color = blue, black
+quantity = 1
+blue_mana = 1
+black_mana = 1
+converted_mana_cost = 2
+sub_type = Siren
+card_text = Flying\n1Blue: Target creature an opponent controls attacks this turn if able.\n1Black, Tap: Attacking creatures get -1/-1 until end of turn.
+flavor_text = Her melody melds death and beauty with such artistry that even the gods weep to hear it.
+power = 1
+toughness = 2
+expansion = Theros
+rarity = uncommon
+card_number = 203
+artist = Daarken
+multiverseid = 373702
++
+card_name = Kragma Warcaller
+type = creature
+color = black, red
+quantity = 1
+black_mana = 1
+red_mana = 1
+colorless_mana = 3
+converted_mana_cost = 5
+sub_type = Minotaur Warrior
+card_text = Minotaur creatures you control have haste.\nWhenever a Minotaur you control attacks, it gets +2/+0 until end of turn.
+flavor_text = A warcaller merely brings the herd together. After that, the meat-hunger is all the encouragement they need.
+power = 2
+toughness = 3
+expansion = Theros
+rarity = uncommon
+card_number = 195
+artist = Gabor Szikszai
+multiverseid = 373710
++
+card_name = Daxos of Meletis
+type = legendary creature
+color = white, blue
+quantity = 1
+white_mana = 1
+blue_mana = 1
+colorless_mana = 1
+converted_mana_cost = 3
+sub_type = human soldier
+card_text = Daxos of Meletis can't be blocked by creatures with power 3 or greater. Whenever Daxos of Meletis deals combat damage to a player, exile the top card of that player's library. You gain life equal to that card's converted mana cost. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast it.
+power = 2
+toughness = 2
+expansion = Theros
+rarity = rare
+card_number = 191
+artist = Karla Ortiz
+multiverseid = 373664
++
+card_name = Sentry of the Underworld
+type = creature
+sub_type = griffin skeleton
+color = white, black
+quantity = 1
+white_mana = 1
+black_mana = 1
+colorless_mana = 3
+converted_mana_cost = 5
+card_text = Flying, vigilance\nWhiteBlack, Pay 3 life: Regenerate Sentry of the Underworld.
+power = 3
+toughness = 3
+expansion = Theros
+rarity = uncommon
+card_number = 202
+artist = Dave Kendall
+multiverseid = 373697
++
 #White
-Pillarfield Ox
-Sentinel Sliver
++
+card_name = Pillarfield Ox
+color = white
+quantity = 1
+white_mana = 1
+colorless_mana = 3
+converted_mana_cost = 4
+Type = ox
+flavor_text = \"May starving fleas birth a thousand generations on your stubborn hide, cow!\"\n-Bruse Tarl, Goma Fada nomad
+power = 2
+toughness = 4
+expansion = Magic 2013, Magic 2014
+rarity = common
+card_number = 25
+artist = Andrew Robinson
+multiverseid = 279700
++
+card_name = Sentinel Sliver
+color = white
+quantity = 1
+white_mana = 1
+colorless_mana = 1
+converted_mana_cost = 2
+sub_type = sliver
+card_text = Sliver creatures you control have vigilance. (Attacking doesn't cause them to tap.)
+flavor_text = Through its watchful gaze, all slivers may see.
+power = 2
+toughness = 2
+expansion = Magic 2014
+rarity = common
+card_number = 30
+artist = Miciej Kuciara
+multiverseid = 370813
++
+-
 Evangel of Heliod
 Cavalry Pegasus
 Wingsteed Rider

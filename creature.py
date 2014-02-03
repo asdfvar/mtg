@@ -3,7 +3,8 @@ import card
 import player
 
 class Creature(card.card):
-   Type = ''
+   card_name = ''
+   Type = 'creature'
    sub_type = ''
    permanent = True
    summining_sickness = True
@@ -19,6 +20,9 @@ class Creature(card.card):
    Trample = False
    flying = False
    first_strike = False
+
+   def __init__(self, card_name):
+      self.card_name = card_name
 
    def remove_damage(self):
       self.damage = 0
