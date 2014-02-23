@@ -15,8 +15,20 @@ class cards:
       for crd in self.allcards:
          if crd.card_name == name:
             crd.print_card()
+
+#########################################################################
    
-########################
+   # remove repeated cards
+   # if the database is big, this may be slow. It is
+   # recomended to write this to file so that this does
+   # not need to be called again
+   def rmRepeats(self):
+      for i,crd in enumerate(self.allcards):
+         for k in range(i+1, len(self.allcards)):
+            while k < len(self.allcards) and crd.card_name == self.allcards[k].card_name:
+               self.allcards.pop(k)
+            
+#########################################################################
 
    def addFlavor(self):
       for crd in self.allcards:
