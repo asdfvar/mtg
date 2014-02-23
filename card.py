@@ -1,5 +1,6 @@
+# class defined for each individual card
+
 import termcolor as tc
-#import creature
 
 class card:
    card_name = None
@@ -27,6 +28,14 @@ class card:
    blue_mana = None
    red_mana = None
    black_mana = None
+   power = None
+   toughness = None
+   
+   seeFlavor = False
+   seeExpansion = True
+   seeRarity = False
+   seeType = True
+   seeNumber = False
 
 ########################
 
@@ -35,7 +44,8 @@ class card:
 
 ########################
 
-   def setcost(self, colorless, white_mana, blue_mana, black_mana, red_mana, green_mana, converted_mana_cost):
+   def setcost(self, colorless, white_mana, blue_mana,\
+               black_mana, red_mana, green_mana, converted_mana_cost):
       if white_mana:
          self.white_mana = white_mana
          self.color.append('W')
@@ -54,17 +64,29 @@ class card:
       if colorless:
          self.colorless = colorless
    
-########################
-
    def settype(self, Type, sub_type):
       if Type: self.Type = Type
       if sub_type: self.sub_type = sub_type
-
-########################
-      
+   
    def settext(self, card_text, flavor_text):
       if card_text: self.card_text = card_text
       if flavor_text: self.flavor_text = flavor_text
+
+   def setPT(self, power, toughness):
+      self.power = power
+      self.toughness = toughness
+
+   def setexpansion(self, expansion):
+      self.expansion = expansion
+
+   def setrarity(self, rarity):
+      self.rarity = rarity
+
+   def setNumber(self, number):
+      if number: self.card_number = int(number)
+
+   def setartist(self, artist):
+      self.artist = artist
 
 ########################
 
@@ -80,13 +102,37 @@ class card:
 
 ########################
 
-   def attack():
-      pass
+   def addFlavor(self):
+      self.seeFlavor = True
+   
+   def addExpansion(self):
+      self.seeExpansion = True
 
+   def addRarity(self):
+      self.seeRarity = True
+
+   def addType(self):
+      self.seeType = True
+
+   def addNumber(self):
+      self.card_number = True
+      
 ########################
 
-   def block():
-      pass
+   def rmFlavor(self):
+      self.seeFlavor = False
+   
+   def rmExpansion(self):
+      self.seeExpansion = False
+
+   def rmRarity(self):
+      self.seeRarity = False
+
+   def rmType(self):
+      self.seeType = False
+
+   def rmNumber(self):
+      self.card_number = False
 
 ########################
 
@@ -105,9 +151,17 @@ class card:
          print "%s" % tc.colored(self.black_mana, 'white','on_grey'),
       if self.red_mana:
          print "%s" % tc.colored(self.red_mana, 'white','on_red'),
-      print self.card_text
-      print self.flavor_text
-#         if isinstance(self, creature.Creature):
-#            print ''
-#            print "%d/%d" % (self.power, self.toughness)
+      print ''
+      if self.card_text: print self.card_text
+      if self.flavor_text and self.seeFlavor:
+         print self.flavor_text
+      if self.seeType:
+         if self.sub_type: print "%s \xe2\x80\x94 %s" % (self.Type, self.sub_type)
+         else: print self.Type
+      if self.expansion and self.seeExpansion:
+         print "Expansion: %s" % self.expansion
+      if self.seeRarity:
+         print "Rarity: %s" % self.rarity
+      if self.power and self.toughness: print "%s/%s" % (self.power, self.toughness)
+      if self.seeNumber: print "card number = %d" % self.card_number
       print ''

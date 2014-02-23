@@ -109,6 +109,11 @@ class read_cards:
                            black_mana, red_mana, green_mana, converted_mana)
          this_card.settype(Type, sub_type)
          this_card.settext(card_text, flavor_text)
+         this_card.setexpansion(expansion)
+         this_card.setPT(power, toughness)
+         this_card.setrarity(rarity)
+         this_card.setNumber(card_number)
+         this_card.setartist(artist)
 
          self.cards.append(this_card)
       f.flush()
