@@ -1,0 +1,72 @@
++
+Warrior's Honor
+card text = Creatures you control get +1/+1 until end of turn.
++
+Warrior's Honor
+multiverse id = 98777
+colorless = 2
+white = 1
+converted mana cost = 3
+type = Instant
+card text = Creatures you control get +1/+1 until end of turn.
+flavor text = asdf
+expansion = Ninth Edition
+rarity = Common
+card number = 53
+artist = D. Alexander Gregory
++
+Web
+multiverse id = 98779
+green = 1
+converted mana cost = 1
+type = Enchantment
+sub type = Aura
+card text = Enchant creature  Enchanted creature gets +0/+2 and has reach. 
+expansion = Ninth Edition
+rarity = Uncommon
+card number = 281
+artist = Hugh Jamieson
++
+Black Lotus
+multiverse id = 3
+type = Artifact
+expansion = Limited Edition Alpha
+rarity = Rare
+artist = Christopher Rush
++
+Black Vise
+multiverse id = 4
+colorless = 1
+converted mana cost = 1
+type = Artifact
+card text = As Black Vise enters the battlefield, choose an opponent. At the beginning of the chosen player's upkeep, Black Vise deals X damage to that player, where X is the number of cards in his or her hand minus 4.
+expansion = Limited Edition Alpha
+rarity = Uncommon
+artist = Richard Thomas
++
+Yawgmoth Demon
+multiverse id = 98792
+colorless = 4
+black = 2
+converted mana cost = 6
+type = Creature
+sub type = Demon
+card text = Flying  First strike  At the beginning of your upkeep, you may sacrifice an artifact. If you don't, tap Yawgmoth Demon and it deals 2 damage to you.
+power = 6
+toughness = 6
+expansion = Ninth Edition
+rarity = Rare
+card number = 170
+artist = Pete Venters
++
+Tide of War
+multiverse id = 87302
+colorless = 4
+red = 2
+converted mana cost = 6
+type = Enchantment
+card text = Whenever one or more creatures block, flip a coin. If you win the flip, each blocking creature is sacrificed by its controller. If you lose the flip, each blocked creature is sacrificed by its controller.
+expansion = Champions of Kamigawa
+rarity = Rare
+card number = 194
+artist = Wayne Reynolds

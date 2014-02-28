@@ -118,7 +118,7 @@ number_part = re.compile("\d{1,4}")
 artist    = re.compile("Artist:")
 
 
-for multiverse_id in range(110000,113000):
+for multiverse_id in range(113000,260000):
    page_defined.setFalse(multiverse_id)
    req = session.get(base_name + str(multiverse_id))
    cont = req.content.split('\n')
