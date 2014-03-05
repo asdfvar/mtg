@@ -5,28 +5,26 @@ Daxos of Meletis
 Sentry of the Underworld
 #White
 Pillarfield Ox
-Sentinel Sliver
-Evangel of Heliod
+Evangel of Heliod 2
 Cavalry Pegasus
 Wingsteed Rider
 Soldier of the Pantheon
 Lagonna-Band Elder
-Setessan Battle Priest
+Setessan Battle Priest 2
 Suntail Hawk
 Griffin Sentinel
-Setessan Griffin
-Leonin Snarecaster 2
+Setessan Griffin 2
+Leonin Snarecaster 4
 Observant Alseid 4
 Steeple Roc
 Daring Skyjek
 Soulmender
 Yoked Ox 3
-Traveling Philosopher
-Ephara's Warden 2
+Traveling Philosopher 2
+Ephara's Warden 3
 Ephara's Radiance 7
 Ephara's Enlightenment
 Tireless Tribe 2
-Plated Sliver
 Pilgrim of Virtue 2
 Mystic Visionary
 Beloved Chaplain
@@ -62,7 +60,6 @@ Advocate of the Beast
 Leafcrown Dryad
 Voyaging Satyr
 Rumbling Baloth
-Manaweft Sliver
 Agent of Horizons 2
 Karametra's Acolyte 3
 Staunch-Hearted Warrior 3
@@ -71,7 +68,7 @@ Vulpine Goliath
 Pheres-Band Centaurs 2
 Nylea's Disciple 4
 Satyr Hedonist 3
-Sedge Scorpion 3
+Sedge Scorpion 4
 Agent of Horizons
 Kraul Warrior
 Centaur's Herald
@@ -140,7 +137,6 @@ Erg Raiders
 Cabal Inquisitor
 Dripping Dead 2
 Serpent Warrior
-Spectral Sliver
 Gangrenous Zombies
 Krovikan Vampire
 Krovikan Sorcerer
@@ -186,7 +182,6 @@ Shoreline Ranger
 Muscician
 Primoc Escapee
 Mistform Wakecaster
-Mistform Sliver
 Mistform Ultimus
 Zuran Spellcaster
 Escape Artist
@@ -213,18 +208,17 @@ Magus of the Unseen
 Warped Researcher
 
 # Red
-Priest of Iroas 3
+Priest of Iroas 4
 Goblin Shortcutter 2
 Ill-Tempered Cyclops
 Cyclops Tyrant
 Regathan Firecat
 Canyon Minotaur
 Satyr Rambler
-Wild Celebrants
+Wild Celebrants 2
 Deathbellow Raider
 Bellows Lizard
 Scorchwalker
-Blur Sliver
 Stoneshock Giant
 Ember Swallower
 Ember Beast 2
@@ -238,7 +232,6 @@ Wall of Fire
 Chartooth Cougar
 Flamewave Invoker
 Atog
-hunter Sliver 2
 Macetail hystrodon 3
 Whipkeeper
 Cinder Wall
@@ -258,7 +251,6 @@ Orchish Lumberjack
 Orchish Farmer
 Skirk Outrider
 Mons's Goblin Raiders
-Magma Sliver
 Brothers of Fire
 Crested Craghorn
 Frenetic Ogre
@@ -303,7 +295,7 @@ Nausea
 Glimpse the Future
 Divination 8
 Tome Scour
-Thassa's Bounty
+Thassa's Bounty 2
 Uncovered Clues
 Careful Study 2
 Rush of Knowledge
@@ -316,10 +308,10 @@ Cultural Exchange
 Flames of the Firebrand
 Rage of Purphoros 2
 Peak Eruption 2
-Demolish 3
+Demolish 4
 Mark for Death
 Awe for the Guilds
-Portent of Betrayal 3
+Portent of Betrayal 4
 Torrent of Fire
 Flashfires
 Scorching Missile 2
@@ -333,7 +325,7 @@ Shower of Coals
 #White
 Celestial Flare
 Battlewise Valor
-Ray of Dissolution 3
+Ray of Dissolution 4
 Battlewise Valor
 Fortify
 Dauntless Onslaught
@@ -392,9 +384,9 @@ Volcanic Geyser
 Smelt
 Thunder Strike
 Coordinated Assault 2
-Boulderfall
+Boulderfall 2
 Magma Jet
-Spark Jolt
+Spark Jolt 2
 Lightning Strike
 Engulfing Flames
 Incinerate 4
@@ -410,7 +402,7 @@ Flame Burst
 Gainsay
 Negate
 Frost Breath
-Dissolve
+Dissolve 4
 Brainstorm
 Peck 2
 Clairvoyance
@@ -534,7 +526,7 @@ Flamecast Wheel 2
 Bubbling Cauldron
 Guardians of Meletis 2
 Anvilwrought Raptor 2
-Fleetfeather Sandals 3
+Fleetfeather Sandals 4
 
 #Misc
 Shimmering Grotto
@@ -566,7 +558,7 @@ Purge the Profane
 Chromanticore
 Charging Badger 8
 Satyr Wayfinder 8
-Culling Mark 5
+Culling Mark 6
 Snake of the Golden Grove 6
 Nyxborn Wolf 6
 Nyxborn Rollicker 3
@@ -590,12 +582,12 @@ Impetuous Sunchaser 7
 Rise to the Challenge 8
 Akroan Conscriptor 3
 Pharagax Giant 7
-Cyclops of One-Eyed Pass 5
+Cyclops of One-Eyed Pass 8
 Kragma Butcher 9
 Fearsome Temper 6
 Fated Conflagration 2
 Bolt of Keranos 7
-Lightning Volley 2
+Lightning Volley 3
 Servant of Tymaret 7
 Forsaken Drifters 6
 Necrobite 7
@@ -605,7 +597,7 @@ Warchanter of Mogis 7
 Claim of Erebos 5
 Weight of the Underworld 7
 Felhide Brawler 6
-Forlorn Pseudamma
+Forlorn Pseudamma 2
 Shrike Harpy 3
 Ghostblade Eidolon 2
 Great Hart 7
@@ -613,10 +605,10 @@ Akroan Phalanx 2
 Revoke Existence 7
 Akroan Skyguard 8
 Glimpse the Sun God
-Oreskos Sun Guide 4
+Oreskos Sun Guide 6
 Loyal Pegasus 5
 Elite Skirmisher 6
-Excoriate 6
+Excoriate 7
 Eidolon of Countless Battles
 Vanguard of Brimaz 3
 Sudden Storm 5
@@ -626,38 +618,37 @@ Oracle's Insight 2
 Crypsis 4
 Floodtide Serpent 7
 Retraction Helix 6
-Tromokratis 2
+Tromokratis 4
 Thessa's Rebuff 2
 Sphinx's Disciple 7
 Perplexing Chimera
-Kraken of the Straits 3
 Fated Infatuation
 Chorus of the Tides 6
 Deepwater Hypnotist 4
 Fall of the Hammer
-Thunder Brute 2
+Thunder Brute 3
 Ornitharch
 Bile Blight 2
 Champion of Stray Souls
 Asphyxiate 5
-Aspect of Hydra 5
+Aspect of Hydra 6
 Scourge of Skola Vale 2
 Nullify 8
-Odunos River Trawler
+Odunos River Trawler 2
 Drown in Sorrow 3
 Silent Sentinel
 Marshmist Titan 6
 Archetype of Finality
 Archetype of Endurance 2
 Archetype of Aggression 3
-Archetype of Courage 2
+Archetype of Courage 3
 Archetype of Finality
 Archetype of Imagination 2
 Gorgon's Head 2
 Raised by Wolves
-Whelming Wave 2
+Whelming Wave 3
 Siren of the Fanged Coast 2
-Stormcaller of Keranos
+Stormcaller of Keranos 2
 Acolyte's Reward 2
 Herald of Torment
 Hold at Bay 8
@@ -675,7 +666,7 @@ Pillar of War
 Phenax, God of Deception
 Arbiter of the Ideal 2
 Aerie Worshippers 2
-Vortex Elemental
+Vortex Elemental 4
 Peregrination
 Hero of Leina Tower
 Kiora, the Crashing Wave
@@ -712,3 +703,32 @@ Eater of Hope 2
 Springleaf Drum
 Astral Cornucopia
 Fated Intervention
+Nylea, God of the Hunt
+Rageblood Shaman
+Flamespeaker Adept
+Meletis Charlatan
+Cutthroat Maneuver
+Two-Headed Cerberus 2
+Akroan Horse
+Vanquish the Foul
+Purphoros's Emissary
+Sealock Monster 5
+Shipbreaker Kraken 4
+Kraken of the Straits 4
+Battle Sliver 2
+Bonescythe Sliver 2
+Galerider Sliver
+Groundshaker Sliver 4
+Manaweft Sliver 2
+Magma Sliver
+Megantic Sliver 2
+hunter Sliver 2
+Predatory Sliver 4
+Spectral Sliver
+Steelform Sliver 4
+Striking Sliver 2
+Blur Sliver 3
+Mistform Sliver
+Syphon Sliver
+Sentinel Sliver 4
+Plated Sliver
